@@ -208,3 +208,5 @@ here is the argument:
 ```
 
 Welcome to contact me <chaoqiy2@illinois.edu> for any question. Partial credit to https://github.com/sjy1203/GAMENet.
+
+#### 修复ValueError: setting an array element with a sequence. Bug
