@@ -171,6 +171,8 @@ def main():
         # ###
         result = []
         for _ in range(10):
+
+            data_test=np.array(data_test,dtype=object) #bug修复
             test_sample = np.random.choice(
                 data_test, round(len(data_test) * 0.8), replace=True
             )
